@@ -48,7 +48,7 @@ function fetchFileFromDisc(fullPath, callback, processFunc) {
 
 function fetchFile(filePath, fromDir, callback, processFunc) {
   var fullPath = path.resolve(__dirname, fromDir + path.sep + filePath);
-  if (fullPath.indexOf(__dirname + path.sep + fromDir) !== 0) {
+  if (fullPath.indexOf(__dirname + path.sep + fromDir + path.sep) !== 0) {
     console.log('possible hack attack, address requested: ', fullPath);
     return false;
   }
