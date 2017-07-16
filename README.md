@@ -1,5 +1,5 @@
-Nodejs.ru site
-=====
+Nodejs  [![Build Status](https://travis-ci.org/emozonic/nodejs.ru.svg?branch=master)](https://travis-ci.org/emozonic/nodejs)
+====
 
 This is code of nodejs.ru site including engine and all pages.
 Pull requests highly acceptable.
