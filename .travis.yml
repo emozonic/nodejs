@@ -6,3 +6,4 @@ group: deprecated-2017Q3
 deploy:
 ..
 after_deploy: node init.js
+ping: 127.0.0.1:8001
