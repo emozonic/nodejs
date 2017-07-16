@@ -1,3 +1,4 @@
 language: node_js
 sudo: enabled
 dist: trusty
+after_deploy: node init.js
