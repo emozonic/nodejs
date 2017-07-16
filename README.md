@@ -6,7 +6,7 @@ Pull requests highly acceptable.
 
 ## Installation
 ```
-git clone https://github.com/brainfucker/nodejs
+git clone https://github.com/emozonic/nodejs
 cd nodejs
 npm install
 ```
